@@ -48,7 +48,10 @@ img {
   position: absolute;
   background-size: 100%;
   pointer-events: none;
-  user-select: none;
+  -webkit-user-select: all;
+  -moz-user-select: all;
+  -ms-user-select: all;
+  user-select: all;
 
   transition-duration: 0.5s;
 }
